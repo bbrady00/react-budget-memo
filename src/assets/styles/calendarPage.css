@@ -1,0 +1,83 @@
+body {
+  min-height: 100vh;
+  background-image: conic-gradient(from 90deg, #7d8be0, white, #FFF9F0, #d5edf8, #abcdde, #7d8be0);
+}
+
+h3 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+/* Styling for hero calendar */
+#calendar {
+  width: 700px;
+  min-width: 700px;
+  min-width: 700px;
+  float: left;
+}
+
+.weekday-title {
+  width: 100px;
+  height: 30px;
+}
+
+.day {
+  width: 100px;
+  height: 100px;
+  border: 0.5px solid;
+}
+
+#todayCube {
+  background-color: #D5EDF8;
+}
+
+.actual:hover {
+  background-color: lightskyblue;
+}
+
+#todayCube:hover {
+  background-color: lightskyblue;
+}
+
+.logRecord {
+  font-size: 8px;
+  background-color: lavender;
+  width: 76px;
+  z-index: 6;
+  position: relative;
+  left: 20px;
+  top: -22px;
+  padding-left: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+.logRecord:hover {
+  display: block;
+}
+
+.logDivBtn {
+  position: relative;
+  left: 60px;
+  display: inline;
+}
+
+.logDivBtn:hover {
+  color: red;
+  transform: scale(2);
+}
+
+
+
+/* Sidebar styling */
+#cframe {
+  border: 1px solid white;
+}
+
+#sidebar {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.2), 0 6px 20px 0 rgba(128, 128, 128, 0.19);
+}
